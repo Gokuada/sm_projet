@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import siko from "../assets/siko.png";
+import sm from "../assets/sm.png";
 
 const navigation = [
   { name: "ESPACE MARCHAND", href: "#", current: false },
@@ -20,9 +20,9 @@ export default function Example() {
       className=" border-b-2 border-gray bg-gray-800 fixed w-full z-10">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-10 lg:px2">
             <div className="relative flex h-16 items-center justify-between">
-              <img className="h-8 w-auto mb-2 sm:mb-0" src={siko} />
+              <img className="h-20 w-auto mb-2 sm:mb-0" src={sm} />
               <div className="hidden sm:block">
                 <div className="flex space-x-4">
                   {navigation.map((item) => (

@@ -36,22 +36,8 @@ const About = () => {
               À PROPOS DE NOUS
             </h2>
             <p className="md:w-full text-sm text-white mb-8" style={{ lineHeight: "2" }}>
-              Fondée en 2022 par 2 passionnés de mobilité électrique et anciens
-              consultants en services financiers, Siko Mobility a financé plus
-              d’1m€ d’engins électriques et conquis plus de 850 clients lors de
-              sa première année, proposant des solutions d’institutions
-              financières aux clients des concessionnaires de mobilité
-              électrique.Siko Mobility apporte une solution inclusive au 25% des
-              Français qui refusent une formation ou un emploi faute de moyen de
-              mobilité pour s’y rendre, et participe rendre réellement verte la
-              mobilité électrique en reprenant les engins en fin de contrat pour
-              les remettre en état et les proposer à moindre coût. Nous aidons
-              les concessionnaires à augmenter leurs ventes en mettant à
-              disposition de leurs clients des solutions de paiement de 3 à 84x
-              fois ultra simplifiées (BNPL, crédit, leasing); Nous les aidons
-              également à créer des revenus récurrents en abonnant leurs clients
-              à 4 services exclusifs sans engagement : assurance, assistance,
-              garantie 3 ans, maintenance.
+            Bienvenue chez [Nom de votre entreprise], où nous sommes fiers d'être à la pointe de la révolution de la mobilité électrique. Fondée avec une vision claire de créer un avenir plus propre et plus durable, notre entreprise s'engage à fournir des solutions innovantes pour répondre aux besoins croissants de mobilité tout en préservant notre environnement. 
+            Chez [Nom de votre entreprise], nous plaçons la durabilité au cœur de tout ce que nous faisons. Nous nous engageons à minimiser notre empreinte carbone et à promouvoir des pratiques écoresponsables tout au long de notre chaîne de valeur. De la conception de nos véhicules à leur cycle de vie complet, nous nous efforçons de faire progresser la cause de la mobilité durable.
             </p>
           </motion.div>
         </div>

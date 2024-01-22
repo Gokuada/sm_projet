@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
     background-color: #1F2937;
 }
+
 .bg-custom-color {
     background-color: #1F2937;
-  }
-header{
+}
+
+header {
     z-index: 10001 !important;
 }
-.btn-primary{
-    @apply bg-brandPrimary text-white  py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey hover:-translate-y-2;
+
+.btn-primary {
+    @apply bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey hover:-translate-y-2;
 }
+
 .navbar {
     backdrop-filter: blur(10px);
 }
+
 .about-container {
-    background-color: #1F2937; 
+    background-color: #1F2937;
 }
 
 .nav-with-shadow {
@@ -26,11 +31,16 @@ header{
 }
 
 .cta-button {
-    min-width: 120px; 
-    justify-content: center; 
-    align-items: center; 
-  }
+    min-width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg-custom-color {
     background-color: #1F2937;
-  }
+}
 
+.btn-carousel {
+    min-width: 10px; 
+  }
+  

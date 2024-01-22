@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 import { Check } from "react-feather";
-
 import privacy from "../assets/privacy.png";
 import maintenance from "../assets/maintenance.png";
 import assistance from "../assets/assistance.png";
@@ -30,10 +29,10 @@ const Avantage = () => {
                 </p>
               </h1>
               <div className="flex">
-                <button className="rounded-full ml-auto px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-3 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   SOUSCRIRE
                 </button>
-                <button className="rounded-full ml-4 px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-1 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -53,10 +52,10 @@ const Avantage = () => {
                 </p>
               </h1>
               <div className="flex">
-                <button className="rounded-full ml-auto px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   SOUSCRIRE
                 </button>
-                <button className="rounded-full ml-4 px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-4 px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -76,10 +75,10 @@ const Avantage = () => {
                 </p>
               </h1>
               <div className="flex">
-                <button className="rounded-full ml-auto px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-3 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   SOUSCRIRE
                 </button>
-                <button className="rounded-full ml-4 px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-1 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -94,15 +93,15 @@ const Avantage = () => {
               <h1 className="text-5xl mb-14 font-semibold text-white md:w-3/4 leading-snug">
                 EXTENSIONS DE GARANTIE{" "}
                 <p className="text-brandPrimary text-[30px] whitespace-normal">
-                  Profitez d'une tranquilité d'esprit prolongée avec nos
+                  Profitez d'une tranquillité d'esprit prolongée avec nos
                   extensions.
                 </p>
               </h1>
               <div className="flex">
-                <button className="rounded-full ml-auto px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-3 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   SOUSCRIRE
                 </button>
-                <button className="rounded-full ml-4 px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
+                <button className="btn-carousel rounded-full ml-auto px-1 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey btn">
                   EN SAVOIR PLUS
                 </button>
               </div>

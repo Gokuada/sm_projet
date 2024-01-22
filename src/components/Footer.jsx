@@ -1,5 +1,5 @@
 import React from "react";
-import siko from "../assets/siko.png";
+import sm from "../assets/sm.png";
 import { Footer, Label, TextInput } from "flowbite-react";
 import {
   BsFacebook,
@@ -24,15 +24,15 @@ const MyFooter = () => {
               className="text-2xl font-semibold flex items-center space-x-3"
             >
               <img
-                src={siko}
+                src={sm}
                 alt=""
-                className="w-20 inline-block items-center siko-logo"
-                style={{ width: "200px", height: "auto" }}
+                className="w-20 inline-block items-center sm-logo"
+                style={{ width: "100px", height: "auto" }}
               />
             </a>
             <div className="my-8">
-              <p className="mb-1"> contact@sikomobility.com</p>
-              <p>86 rue Dutot, 75015 Paris</p>
+              <p className="mb-1"> contact@smcontact.com</p>
+              <p>3 rue Clark, 75016 Paris</p>
             </div>
 
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-start text-white">
@@ -61,7 +61,7 @@ const MyFooter = () => {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="siko mobility" className="text-white" />
+              <Footer.Title title="sm mobility" className="text-white" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#" className="text-white">
                   Accueil

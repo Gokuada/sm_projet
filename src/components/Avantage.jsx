@@ -11,7 +11,7 @@ const Avantage = () => {
   return (
     <div className="bg-neutralSilver" id="Avantage">
       <div
-        className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen flex justify-center items-center about-container"
+        className="min-h-screen h-screen flex justify-center items-center about-container"
         style={{ marginTop: "150px" }}
       >
         <Carousel className="w-full mx-auto">

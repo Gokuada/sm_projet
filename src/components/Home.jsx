@@ -4,8 +4,8 @@ import bike from "../assets/bike.png";
 const Home = () => {
   return (
     <div className="bg-neutralSilver" id="home">
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen flex justify-center items-center about-container">
-        <div className="my-28 md:my-8 py-12 pt-40 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
+      <div className="ax-w-screen-x p-4 pb-0 about-container">
+        <div className="my-28 md:my-8 py-12 pt-40 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-">
           <div className="mb-6 md:mb-0 md:w-1/2">
             <img src={bike} alt="" className="max-w-full h-auto" />
           </div>

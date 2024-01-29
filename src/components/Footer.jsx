@@ -14,9 +14,9 @@ import logo from "../assets/logo.png";
 
 const MyFooter = () => {
   return (
-    <footer className="bg-neutralGrey text-white">
-      <div className="bg-primary h-1"></div>
-      <div className="px-1 lg:px-1 max-w-screen-2xl mx-auto py-12 about-container">
+    <footer className="about-container text-white">
+  <div className="bg-primary h-1"></div>
+  <div className="px-1 lg:px-1 max-w-screen-2xl mx-auto py-12 ">
         <div className="grid w-full justify-between gap-8 sm:flex sm:items-start sm:justify-between md:flex md:grid-cols-1">
           <div className="mt-2">
             <a

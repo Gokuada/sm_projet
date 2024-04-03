@@ -13,7 +13,7 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl mb-3 md:mb-5 font-semibold text-white md:w-2/3 leading-snug">
               Votre agence pour la mobilité électrique
             </h1>
-            <p className="text-neutralGrey text-base mb-5 md:mb-8">
+            <p className="text-white text-base mb-5 md:mb-8">
               La solution pour la mobilité électrique destinée aux
               concessionnaires. Financement, assurance, maintenance et garantie.
             </p>

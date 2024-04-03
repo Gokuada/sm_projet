@@ -105,7 +105,8 @@ export default function Example() {
                         key={index}
                         href={button.href}
                         className={`rounded-full px-7 py-1.5 bg-brandPrimary text-white rounded hover:bg-neutralDGrey focus:outline-none focus:ring focus:ring-violet-300 flex items-center text-xs cta-button`}
-                      >
+                      > 
+                      
                         {button.label}
                       </a>
                     ))}

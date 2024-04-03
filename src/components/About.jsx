@@ -32,12 +32,12 @@ const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="md:w-3/5 mx-auto"
           >
-            <h2 className="text-4xl text-white font-semibold mb-4 md:w-4/5">
+            <h2 className="text-4xl text-white font-semibold mb-4 md:w-4/5"  style={{ lineHeight: "2" }}>
               À PROPOS DE NOUS
             </h2>
-            <p className="md:w-full text-sm text-white mb-8" style={{ lineHeight: "2" }}>
-            Bienvenue chez [Nom de votre entreprise], où nous sommes fiers d'être à la pointe de la révolution de la mobilité électrique. Fondée avec une vision claire de créer un avenir plus propre et plus durable, notre entreprise s'engage à fournir des solutions innovantes pour répondre aux besoins croissants de mobilité tout en préservant notre environnement. 
-            Chez [Nom de votre entreprise], nous plaçons la durabilité au cœur de tout ce que nous faisons. Nous nous engageons à minimiser notre empreinte carbone et à promouvoir des pratiques écoresponsables tout au long de notre chaîne de valeur. De la conception de nos véhicules à leur cycle de vie complet, nous nous efforçons de faire progresser la cause de la mobilité durable.
+            <p className="md:w-full text-sm md:text-lg text-white mb-8" style={{ lineHeight: "2" }}>
+            Bienvenue chez SM, où nous sommes fiers d'être à la pointe de la révolution de la mobilité électrique. Fondée avec une vision claire de créer un avenir plus propre et plus durable, notre entreprise s'engage à fournir des solutions innovantes pour répondre aux besoins croissants de mobilité tout en préservant notre environnement. 
+            Chez SM, nous plaçons la durabilité au cœur de tout ce que nous faisons. Nous nous engageons à minimiser notre empreinte carbone et à promouvoir des pratiques écoresponsables tout au long de notre chaîne de valeur. De la conception de nos véhicules à leur cycle de vie complet, nous nous efforçons de faire progresser la cause de la mobilité durable.
             </p>
           </motion.div>
         </div>

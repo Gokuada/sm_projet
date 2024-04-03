@@ -16,7 +16,7 @@ const Newsletter = () => {
         className="flex items-center justify-center lg:w-2/5 mx-auto"
       >
         <div className="text-center">
-          <h2 className="pt-40 lg:text-4 text-3xl text-white mb-7 lg:leading-snug">
+          <h2 className="pt-40 lg:text-6 text-5xl text-white mb-7 lg:leading-snug">
             OPTIMISEZ VOS CHOIX FINANCIERS EN COMMENÇANT PAR UNE SIMULATION
             PERSONNALITÉE DÈS MAINTENANT !
           </h2>
